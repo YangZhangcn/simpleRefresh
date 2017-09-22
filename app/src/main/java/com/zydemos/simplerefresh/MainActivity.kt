@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.navigation_home -> {
                 mTextMessage!!.setText(R.string.title_home)
-
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_dashboard -> {
